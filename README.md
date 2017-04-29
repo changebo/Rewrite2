@@ -1,4 +1,4 @@
-# Rewrite&#9313;: A GAN based Chinese font transfer algorithm
+# Rewrite2: A GAN based Chinese font transfer algorithm
 
 ### Usage
 ```
