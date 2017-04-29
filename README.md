@@ -1,5 +1,6 @@
-# Notes:
+# Rewrite2: A GAN based Chinese font transfer algorithm
 
+### Usage
 ```
 python preprocess.py --source_font fonts/hanyiluobo.ttf --target_font fonts/huawenxinwei.ttf --char_list charsets/top_3000_simplified.txt --save_dir fonts
 python preprocess.py --source_font fonts/simhei.ttf --target_font fonts/hanyiheiqi.ttf --char_list charsets/top_3000_simplified.txt --save_dir fonts
@@ -17,3 +18,7 @@ python main.py --source_font=fonts/SIMSUN.npy --target_font=fonts/simkai.npy --s
 
 ```
 
+### Acknowledgments
+- https://github.com/carpedm20/DCGAN-tensorflow
+- https://github.com/kaonashi-tyc/zi2zi
+- https://github.com/kaonashi-tyc/Rewrite
