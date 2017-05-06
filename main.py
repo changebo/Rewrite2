@@ -2,7 +2,7 @@ import os
 import scipy.misc
 import numpy as np
 
-from model import DCGAN
+from model_Qiong import DCGAN
 from utils import pp, visualize, to_json, show_all_variables
 
 import tensorflow as tf
