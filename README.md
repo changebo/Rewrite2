@@ -1,5 +1,7 @@
 # Rewrite2: A GAN based Chinese font transfer algorithm
 
+Please see the [project report](CPSC540_Final_Project_Report.pdf).
+
 ### Usage
 ```
 python preprocess.py --source_font fonts/hanyiluobo.ttf --target_font fonts/huawenxinwei.ttf --char_list charsets/top_3000_simplified.txt --save_dir fonts
